@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Checkpoint 01 Frontend II</title>
+</head>
+
+<body>
+    <div class="mold">
+        <h1>Checkpoint_Frontend_II</h1>
+        
+        <fieldset>
+            <form action="/registro" method="post">
+
+                <input type="text" name="Titulo" class="form" id="titulo" placeholder="Titulo" required>
+                <input type="text" name="Descrição" class="form" id="descricao" placeholder="Descrição" required>
+                <input type="text" name="Url da imagem" class="form" id="imagem" placeholder="Url da imagem" required>
+
+                <button class="btn" id="botaoSalvar" type="submit">Salvar</button>
+                <button class="btn" id="botaoLimpar" type="reset">Limpar</button>
+
+            </form>
+    </fieldset>
+        
+    </div>
+    
+    <h2>Postagens</h2>
+
+    <main class="container" id="mainContent">
+        
+    </main>
+
+    <footer>
+        <ul>
+            <li>Todos os direitos reservados &copy; - 2022 | Frontend II - Checkpoint I &reg;
+            <span>Alisson Pinho, Patricia Kushima Assano, Peterson Alves dos Santos</li>            
+        </ul>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
